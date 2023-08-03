@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+}
+
+header{
+    font-family: 'Roboto';
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 67px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    justify-content: space-around;
+}
+
+header > *{
+    display: inline-block;
+    width: 460px;
+    height: 51px;
+}
+
+article{
+    font-size: 30px;
+}
+
+article>p{
+    word-wrap: break-word;
+}
+
+#home{
+    z-index: -1;
+    width: 100%;
+    height: 735px;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+hr{
+    width: 861px; 
+    height: 0px; 
+    border: 0.50px #E5E5E5 solid; 
+    backdrop-filter: blur(30px)
+}
+
+#title{
+    position: absolute;
+    width: 942px;
+    height: 309px;
+    left: 111px;
+    top: 216px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 120%; 
+    color: #FFFFFF;
+}
+
+#stat1{
+    position: absolute;
+    width: 205px;
+    height: 21px;
+    left: 1185px;
+    top: 710px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#stat2{
+    position: absolute;
+    width: 166px;
+    height: 21px;
+    left: 110px;
+    top: 710px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#tentang{
+    padding: 110px;
+    position: relative;
+    height: 724.36px;
+    top: 96px;
+}
+
+#abt{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+
+#du{
+    position: relative;
+    top: 10px;
+    width: 608px ;
+    display: inline-block;
+}
+
+#subtitle{
+    width: 607px;  
+    color: #1D2130; 
+    font-size: 48px; 
+    font-family: Roboto; 
+    font-weight: 700; 
+    line-height: 57.60px; 
+    word-wrap: break-word
+}
+
+#penjelasan{
+    position: relative;
+    height: 100%;
+    flex-shrink: 0;
+    background: #EFF7F2;
+    padding:110px; 
+}
+
+ul{
+    position:relative;
+    top: 10px;
+    word-spacing: 5%;
+}
+
+footer{
+    background-color: black;
+    height: 201px;
+}
+
+img{
+    position: relative;
+    padding-left: 800px;
+    bottom: 300px;
+    width: 480px;
+    height: 578px;
+}
+
+.t{
+    top:10px;
+}
